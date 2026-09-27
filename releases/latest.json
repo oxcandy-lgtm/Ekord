@@ -8,8 +8,8 @@
   "artifact": {
     "name": "ekord-agent-darwin-arm64-0.3.3.tar.gz",
     "url": "https://github.com/oxcandy-lgtm/Ekord/releases/download/v0.3.3/ekord-agent-darwin-arm64-0.3.3.tar.gz",
-    "sha256": "62dba06a0ca583c690f61d61e9b51267dc999c26331f740f3eeb5c54d69f61bc",
-    "size": 36377554
+    "sha256": "bff50dd898e5b7c92bd9de6ccbd7d9afe4aa74562d7d7cc506affdcfa62b17fc",
+    "size": 36377458
   },
   "min_updater_version": "0.3.3"
 }
