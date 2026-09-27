@@ -79,3 +79,9 @@ See [`SECURITY.md`](./SECURITY.md) and [`docs/security.md`](./docs/security.md).
 ## Changes
 
 See [`CHANGELOG.md`](./CHANGELOG.md).
+
+## Repository
+
+Official public repository: <https://github.com/oxcandy-lgtm/Ekord>. It is the
+production release and public distribution source for Ekord. Report security
+issues privately as described in [`SECURITY.md`](./SECURITY.md).
