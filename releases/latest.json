@@ -11,5 +11,5 @@
     "sha256": "bff50dd898e5b7c92bd9de6ccbd7d9afe4aa74562d7d7cc506affdcfa62b17fc",
     "size": 36377458
   },
-  "min_updater_version": "0.3.3"
+  "min_updater_version": "0.0.0"
 }
