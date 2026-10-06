@@ -34,6 +34,19 @@ privileged soft guard is best-effort mistake prevention rather than containment
 for hostile commands. The local OS account and its permissions are the final
 security boundary.
 
+## Protections
+
+Ekord uses OAuth authorization protections including PKCE, state and redirect
+binding, and short-lived single-use authorization codes. Paired devices use
+separate revocable credentials, and the Agent connects outbound to the service.
+Tool requests and results are bounded, duplicate and retry handling preserves
+the intended execution identity, and reviewer responses are kept at the public
+privacy boundary. Agent updates are signature-verified before installation.
+
+By default, Ekord does not retain a durable project or tool-history payload
+store. Account, device and authorization records needed to operate the service
+are retained as described in the public Privacy documentation.
+
 ## Secrets
 
 Never include real credentials, tokens, private keys or personal data in a

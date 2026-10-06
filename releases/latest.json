@@ -2,14 +2,14 @@
   "schema_version": 1,
   "product": "Ekord",
   "channel": "stable",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "platform": "darwin-arm64",
   "key_id": "5be841b1a26a791c2bd8e95ca072a58e642ebaacbb65de0d90ff5a19c8b40009",
   "artifact": {
-    "name": "ekord-agent-darwin-arm64-0.3.3.tar.gz",
-    "url": "https://github.com/oxcandy-lgtm/Ekord/releases/download/v0.3.3/ekord-agent-darwin-arm64-0.3.3.tar.gz",
-    "sha256": "bff50dd898e5b7c92bd9de6ccbd7d9afe4aa74562d7d7cc506affdcfa62b17fc",
-    "size": 36377458
+    "name": "ekord-agent-darwin-arm64-0.3.4.tar.gz",
+    "url": "https://github.com/oxcandy-lgtm/Ekord/releases/download/v0.3.4/ekord-agent-darwin-arm64-0.3.4.tar.gz",
+    "sha256": "6a4478d346f12d7ae95cea32d380afd9f90ad5f629909513f47b2a5626b696a7",
+    "size": 36377476
   },
   "min_updater_version": "0.0.0"
 }
