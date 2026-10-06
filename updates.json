@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "updates": [
+    {
+      "version": "0.3.4",
+      "date": "2026-10-06",
+      "title": "Signed Agent release and public connection improvements",
+      "bullets": [
+        "Agent release artifacts are signed and verified before installation, with a safe rollback path for updates.",
+        "Device connections and remote tool results keep bounded, restart-safe behavior.",
+        "Public documentation covers installation, connections, tools, privacy, and security."
+      ],
+      "url": "https://github.com/oxcandy-lgtm/Ekord/releases/tag/v0.3.4"
+    },
+    {
+      "version": "0.3.3",
+      "date": "2026-09-27",
+      "title": "Signed Agent updates and a reliable connection path",
+      "bullets": [
+        "Signed Agent releases verify the update manifest and artifact before an atomic switch, with rollback to the previous working version.",
+        "Revocable device credentials reconnect without repeating pairing, while the MCP surface stays compact and bounded.",
+        "Public documentation covers installation, ChatGPT connection, tools, privacy, and security."
+      ],
+      "url": "https://github.com/oxcandy-lgtm/Ekord/releases/tag/v0.3.3"
+    }
+  ]
+}

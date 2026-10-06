@@ -37,6 +37,18 @@ not durably stored as project history. See [Privacy](./privacy.md).
 Each paired device has its own revocable credential. After server-side
 revocation, that Agent must pair again.
 
+## Protections
+
+OAuth authorization uses PKCE, state and redirect binding, and short-lived
+single-use authorization codes. Tool requests and results are bounded, duplicate
+and retry handling preserves the intended execution identity, and reviewer
+responses are kept at the public privacy boundary. Agent updates are
+signature-verified before installation.
+
+By default, Ekord does not retain a durable project or tool-history payload
+store. Account, device and authorization records needed to operate the service
+are retained as described in [Privacy](./privacy.md).
+
 ## Stopping access
 
 Stopping the Agent immediately removes remote execution availability from that
